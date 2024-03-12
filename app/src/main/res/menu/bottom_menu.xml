@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/horoscopeFragment"
+        android:title="Horoscopo"
+        android:icon="@drawable/horoscope"/>
+    <item android:id="@+id/luckFragment"
+        android:title="Suerte"
+        android:icon="@drawable/suerte"/>
+    <item android:id="@+id/palmistriFragment"
+        android:title="Palmistri"
+        android:icon="@drawable/cartas"/>
+</menu>
