@@ -5,9 +5,9 @@
         android:title="Horoscopo"
         android:icon="@drawable/horoscope"/>
     <item android:id="@+id/luckFragment"
-        android:title="Suerte"
+        android:title="Lucky"
         android:icon="@drawable/suerte"/>
     <item android:id="@+id/palmistriFragment"
-        android:title="Palmistri"
+        android:title="Palmistry"
         android:icon="@drawable/cartas"/>
 </menu>

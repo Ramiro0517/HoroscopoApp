@@ -11,7 +11,9 @@ import com.example.horoscopoapp.ui.horoscope.HoroscopeFragment
 import com.example.horoscopoapp.ui.luck.LuckFragment
 import com.example.horoscopoapp.ui.palmistry.PalmistryFragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
