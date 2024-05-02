@@ -3,6 +3,8 @@ plugins {
     id("org.jetbrains.kotlin.android")
     id("com.google.dagger.hilt.android")
     id("kotlin-kapt")
+    //safeargs para navegacion
+    id("androidx.navigation.safeargs.kotlin")
 }
 
 android {
@@ -63,4 +65,6 @@ dependencies {
     //inyeccion de dependecias con daggert hilt
     implementation("com.google.dagger:hilt-android:2.48")
     kapt("com.google.dagger:hilt-compiler:2.48")
+
+
 }
